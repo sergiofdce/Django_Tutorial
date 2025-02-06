@@ -3,6 +3,9 @@
 from django.db import migrations, models
 import django.db.models.deletion
 
+import datetime
+from django.utils import timezone
+
 
 class Migration(migrations.Migration):
 
